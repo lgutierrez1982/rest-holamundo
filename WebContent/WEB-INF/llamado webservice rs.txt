@@ -1,0 +1,7 @@
+http://localhost:8086/rest-holamundo/rest/saludo/luis
+
+rest: en el web.xml <url-pattern>/rest/*</url-pattern>
+
+saludo: en la clase que se expone como servicio web @Path("/saludo")public class HolaMundo {
+
+rest-holamundo: nombre de la aplicacion
